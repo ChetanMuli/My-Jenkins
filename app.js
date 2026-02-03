@@ -4,7 +4,6 @@ const app = express();
 app.get("/", (req, res) => {
 
   res.send("AUTO DEPLOY IS WORKING 🔥");
-  res.send("Checking 🚀");
 });
 
 app.listen(3000, "0.0.0.0", () => {
