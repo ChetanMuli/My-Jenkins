@@ -2,9 +2,10 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello from CI/CD on Ubuntu 🚀");
+  res.send("AUTO DEPLOY IS WORKING 🔥");
 });
 
-app.listen(3000, () => {
-  console.log("Running on Ubuntu at port 3000");
+app.listen(3000, "0.0.0.0", () => {
+  console.log("Running on port 3000");
 });
+
