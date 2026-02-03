@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello from CI/CD on Ubuntu 🚀");
+  res.send("Checking Auto-Deploy 🚀");
 });
 
 app.listen(3000, () => {
