@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-<<<<<<< HEAD
+
   res.send("AUTO DEPLOY IS WORKING 🔥");
   res.send("Checking 🚀");
 });
